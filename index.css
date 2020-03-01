@@ -1,0 +1,149 @@
+body {
+  background-color: #e5e5e5;
+}
+.card {
+  box-sizing: border-box;
+  position: absolute;
+
+  width: 200px;
+  height: 403px;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  background: #ffffff;
+  border: 1px solid #f3f3f3;
+  border-radius: 5px;
+}
+.card__image {
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  top: 7.44%;
+  bottom: 59.31%;
+}
+.card__name {
+  position: absolute;
+  left: 7.5%;
+  right: 8%;
+  top: 51.86%;
+  bottom: 40.45%;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+
+  color: #000000;
+}
+.card__number {
+  position: absolute;
+  left: 7.5%;
+  right: 41%;
+  top: 61.04%;
+  bottom: 35.73%;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 13px;
+
+  color: #000000;
+}
+.card__reviews-stars {
+  position: absolute;
+  left: 7.5%;
+  right: 44%;
+  top: 67.99%;
+  bottom: 28.29%;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+.card__star {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.card__reviews-feedback {
+  position: absolute;
+  left: 63.5%;
+  right: 7.5%;
+  top: 68.24%;
+  bottom: 28.54%;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 13px;
+  text-align: right;
+
+  color: #000000;
+}
+.card__price-name {
+  position: absolute;
+  left: 7.5%;
+  right: 78%;
+  top: 77.92%;
+  bottom: 18.86%;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 13px;
+
+  text-align: right;
+
+  color: #000000;
+}
+.card__price-number {
+  position: absolute;
+  left: 52%;
+  right: 7.5%;
+  top: 76.67%;
+  bottom: 18.61%;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+
+  text-align: right;
+
+  color: #000000;
+}
+.card__button-name {
+  position: absolute;
+  left: 7.5%;
+  right: 7.5%;
+  top: 86.35%;
+  bottom: 3.72%;
+
+  background: #00acdc;
+  border-radius: 5px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 40px;
+
+  color: #ffffff;
+}
+.card__button-name:hover {
+  background: #ffffff;
+  border: 1px solid #00acdc;
+  box-sizing: border-box;
+  border-radius: 5px;
+  color: #00acdc;
+}
