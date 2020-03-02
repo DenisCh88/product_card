@@ -22,41 +22,75 @@
         <div class="card__number">Код товара: 195434</div>
         <div class="card__reviews">
           <fieldset class="card__reviews-stars">
-            <input
-              class="card__star"
-              type="radio"
-              name="reviews"
-              value="1"
-              aria-label="ужас"
-            />
-            <input
-              class="card__star"
-              type="radio"
-              name="reviews"
-              value="2"
-              aria-label="терпимо"
-            />
-            <input
-              class="card__star"
-              type="radio"
-              name="reviews"
-              value="3"
-              aria-label="нормально"
-            />
-            <input
-              class="card__star"
-              type="radio"
-              name="reviews"
-              value="4"
-              aria-label="хорошо"
-            />
-            <input
-              class="card__star"
-              type="radio"
-              name="reviews"
-              value="5"
-              aria-label="отлично"
-            />
+            <div class="card__star-group">
+              <input
+                class="card__input"
+                type="radio"
+                name="reviews"
+                value="1"
+                id="reviews-1"
+              />
+              <label
+                for="reviews-1"
+                class="card__star"
+                aria-label="ужас"
+              ></label>
+
+              <input
+                class="card__input"
+                type="radio"
+                name="reviews"
+                value="2"
+                id="reviews-2"
+              />
+              <label
+                for="reviews-2"
+                class="card__star"
+                aria-label="терпимо"
+              ></label>
+
+              <input
+                class="card__input"
+                type="radio"
+                name="reviews"
+                value="3"
+                id="reviews-3"
+              />
+              <label
+                for="reviews-3"
+                class="card__star"
+                aria-label="нормально"
+              ></label>
+
+              <input
+                class="card__input"
+                type="radio"
+                name="reviews"
+                value="4"
+                id="reviews-4"
+                checked
+              />
+              <label
+                for="reviews-4"
+                class="card__star"
+                aria-label="хорошо"
+              ></label>
+
+              <input
+                class="card__input"
+                type="radio"
+                name="reviews"
+                value="5"
+                id="reviews-5"
+              />
+              <label
+                for="reviews-5"
+                class="card__star"
+                aria-label="отлично"
+              ></label>
+
+              <div class="card__star-focus"></div>
+            </div>
           </fieldset>
           <div class="card__reviews-feedback">Отзывов: 5</div>
         </div>
